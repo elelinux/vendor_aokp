@@ -7,19 +7,11 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/common
 PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/dictionaries
 
 PRODUCT_PACKAGES += \
-    BluetoothExt \
-    CellBroadcastReceiver \
-    libemoji \
     LatinImeDictionaryPack \
     mGerrit \
-    Microbes \
-    ROMControl \
     Stk \
     su \
-    SwagPapers \
-    Torch \
-    UnicornBeam \
-    KitKatWhite
+    Torch
 
 ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
 PRODUCT_PROPERTY_OVERRIDES += \
